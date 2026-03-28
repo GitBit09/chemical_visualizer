@@ -6,7 +6,7 @@ import './App.css';
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, ArcElement);
 
-const API_BASE_URL = '/api';
+const API_BASE_URL = 'https://chemical-visualizer-5abt.onrender.com/api';
 
 function App() {
   const [datasets, setDatasets] = useState([]);

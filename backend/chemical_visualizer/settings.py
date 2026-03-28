@@ -95,8 +95,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Replace the URL below with your actual Frontend Railway URL
 CORS_ALLOWED_ORIGINS = [
     "https://fossee-hybrid-web-desktop-application-production-34f4.up.railway.app",
+    "https://sunny-piroshki-04a5fc.netlify.app",
     "http://localhost:3000",
 ]
+CORS_ALLOW_ALL_ORIGINS = True
 
 CORS_ALLOW_CREDENTIALS = True
 
